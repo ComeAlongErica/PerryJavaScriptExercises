@@ -15,8 +15,8 @@ var consent = prompt("Do you want to play?")
 
 do{
 var answer = prompt("Say something!");
-var consent = prompt("Do you want to play?")
-console.log(answer++);
+var consent = prompt("Do you want to play?");
+console.log(answer);
 }while(consent === "yes");
 
 // 3
